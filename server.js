@@ -18,7 +18,7 @@ const io = socketio(server);
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.get('/', function(req, res) {     res.sendFile(path.join(__dirname + '/index.html')); });
 const botName = 'Facebook ';
 
 // Run when client connects

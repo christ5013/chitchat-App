@@ -9,14 +9,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bradtraversy/chatcord.git"
+        "url": "https://github.com/christ5013/SDElective-final"
     },
-    "author": "Dave Lyndrex Millan",
+    "author": "Christine Rubio",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/bradtraversy/chatcord/issues"
-    },
-    "homepage": "https://github.com/bradtraversy/chatcord#readme",
+    
     "dependencies": {
         "express": "^4.17.1",
         "moment": "^2.29.1",
